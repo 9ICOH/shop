@@ -5,7 +5,7 @@ import {Category} from "../category.enum";
 @Injectable({
   providedIn: 'root'
 })
-export class ProductsServiceService {
+export class ProductService {
 
   constructor() { }
 
