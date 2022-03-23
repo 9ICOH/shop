@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {ProductModel} from "../models/product-model";
-import {Category} from "../category.enum";
+import {Category} from "../../core/domain/category.enum";
 
 @Injectable({
   providedIn: 'root'

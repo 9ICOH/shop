@@ -1,0 +1,12 @@
+
+<ng-container *ngIf="products; else empty">
+  <ul>
+    <li *ngFor="let pr of products">
+        name: {{pr.name}}, price: {{pr.price}}
+    </li>
+  </ul>
+</ng-container>
+
+<ng-template #empty>
+  Cart is empty.
+</ng-template>

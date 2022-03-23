@@ -1,4 +1,4 @@
-import {Category} from "../category.enum";
+import {Category} from "../../core/domain/category.enum";
 
 export interface ProductModel {
   name: string;
