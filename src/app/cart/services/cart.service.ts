@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import {ProductModel} from "../../product/models/product-model";
-import {Category} from "../../core/domain/category.enum";
+import {CartModel} from "../models/cart-model";
 
 @Injectable({
   providedIn: 'root'
@@ -9,13 +8,10 @@ export class CartService {
 
   constructor() { }
 
-  getCartProducts():ProductModel[]{
+  getCartProducts():CartModel[]{
     return [{
       name: "porridge",
-      description: "small bowl of porridge",
       price: 10,
-      category: Category.Foods,
-      isAvailable: true
     }];
   }
 }
