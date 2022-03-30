@@ -15,6 +15,6 @@ export class ProductComponent implements OnInit {
   }
 
   onAddToCart(){
-    console.log("The product has been purchased")
+    console.log("The product has been purchased");
   }
 }
